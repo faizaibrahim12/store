@@ -1,0 +1,58 @@
+import type { Product } from "./types"
+
+export const mockProducts: Product[] = [
+  {
+    id: "1",
+    name: "Wireless Headphones",
+    price: 79.99,
+    description: "Premium wireless headphones with noise cancellation and 30-hour battery life.",
+    image: "/wireless-headphones.png",
+    category: "Electronics",
+    stock: 15,
+  },
+  {
+    id: "2",
+    name: "Smart Watch",
+    price: 199.99,
+    description: "Advanced fitness tracking and notifications on your wrist.",
+    image: "/smartwatch-lifestyle.png",
+    category: "Electronics",
+    stock: 8,
+  },
+  {
+    id: "3",
+    name: "USB-C Cable",
+    price: 12.99,
+    description: "Durable 6ft USB-C charging and data cable.",
+    image: "/usb-c-cable.jpg",
+    category: "Accessories",
+    stock: 50,
+  },
+  {
+    id: "4",
+    name: "Phone Case",
+    price: 24.99,
+    description: "Protective phone case with premium materials.",
+    image: "/colorful-phone-case-display.png",
+    category: "Accessories",
+    stock: 30,
+  },
+  {
+    id: "5",
+    name: "Portable Charger",
+    price: 34.99,
+    description: "20000mAh portable charger with fast charging support.",
+    image: "/portable-charger-lifestyle.png",
+    category: "Electronics",
+    stock: 20,
+  },
+  {
+    id: "6",
+    name: "Screen Protector",
+    price: 9.99,
+    description: "Tempered glass screen protector for maximum protection.",
+    image: "/screen-protector.png",
+    category: "Accessories",
+    stock: 100,
+  },
+]
